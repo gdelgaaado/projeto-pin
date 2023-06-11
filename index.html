@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="style.css" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Secular+One&display=swap"
+      rel="stylesheet"
+    />
+    <title>Projeto PIN</title>
+  </head>
+  <body>
+    <h1>Agenda de Castração</h1>
+
+    <!-- Formulário -->
+    <div class="insercoes">
+      <form action="post">
+        <input
+          type="text"
+          id="nomeDono"
+          placeholder="Insira o nome do(a) dono(a )"
+        />
+        <input type="text" id="nomeAnimal" placeholder="Insira o nome do Pet" />
+        <input type="text" id="raca" placeholder="Insira a raça do Pet" />
+        <input type="date" id="data" placeholder="Data da castração" />
+        <input
+          type="text"
+          id="contato"
+          placeholder="Insira o contato do(a) dono(a)"
+        />
+        <input type="submit" id="adicionar" value="Adicionar" />
+      </form>
+    </div>
+
+    <!-- Lista -->
+    <div class="corpo">
+      <table>
+        <thead>
+          <tr>
+            <th>Número</th>
+            <th>Nome do(a) Dono(a)</th>
+            <th>Nome do Pet</th>
+            <th>Raça</th>
+            <th>Data da Castração</th>
+            <th>Contato</th>
+            <th>Situação</th>
+          </tr>
+        </thead>
+        <tbody id="lista">
+          <tr></tr>
+        </tbody>
+      </table>
+    </div>
+
+    <script src="script.js"></script>
+  </body>
+</html>

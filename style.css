@@ -1,0 +1,211 @@
+html {
+  font-family: "Secular One", sans-serif;
+}
+/* Celular */
+@media (min-width: 350px) and (max-width: 768px) {
+  body {
+    background-image: url(images/gatos.avif);
+    background-size: auto;
+  }
+
+  table,
+  th,
+  td {
+    border: solid 2px black;
+    width: 100%;
+    padding: 7px;
+    border-radius: 10px;
+  }
+
+  h1 {
+    text-align: center;
+    background-color: green;
+    border: solid 4px black;
+    margin: 0 20% 5% 28%;
+    width: 70%;
+    padding-bottom: 5px;
+    border-radius: 10px;
+  }
+
+  th {
+    background-color: #f4acb7;
+    border: black solid 3px;
+    width: auto;
+  }
+
+  td {
+    border: solid black 2.5px;
+    width: auto;
+  }
+
+  tr {
+    text-align: center;
+    overflow-x: auto;
+  }
+
+  .corpo {
+    margin: 0 0 0 0;
+    width: 800px;
+    background-color: #ffe5d9;
+    border: 3px solid black;
+    border-radius: 10px;
+  }
+
+  .insercoes {
+    margin: auto;
+    width: 100%;
+    flex-wrap: wrap;
+    background-color: #d8e2dc;
+    border: 3px solid black;
+    margin-bottom: 10px;
+    border-radius: 10px;
+    padding: 4px;
+  }
+
+  input {
+    margin: 1.6px;
+    height: 50px;
+    border-radius: 5px;
+    border: solid 3px black;
+    width: 55%;
+  }
+}
+
+/* Tablets */
+@media (min-width: 768px) and (max-width: 1025px) {
+  body {
+    background-image: url(images/gatos.avif);
+    background-size: auto;
+  }
+
+  table,
+  th,
+  td {
+    border: solid 2px black;
+    width: 100%;
+    padding: 7px;
+    border-radius: 10px;
+  }
+
+  h1 {
+    text-align: center;
+    background-color: #fe0026;
+    border: solid 4px black;
+    margin: 0 20% 5% 28%;
+    width: 46%;
+    padding-bottom: 5px;
+    border-radius: 10px;
+  }
+
+  th {
+    background-color: #f4acb7;
+    border: black solid 3px;
+    width: auto;
+    height: 10px;
+  }
+
+  td {
+    border: solid black 2.5px;
+    width: auto;
+    height: 10px;
+  }
+
+  tr {
+    text-align: center;
+  }
+
+  .corpo {
+    margin: auto;
+    width: 100%;
+    background-color: #ffe5d9;
+    border: 3px solid black;
+    border-radius: 10px;
+  }
+
+  .insercoes {
+    margin: auto;
+    width: 95%;
+    background-color: #d8e2dc;
+    border: 3px solid black;
+    margin-bottom: 10px;
+    border-radius: 10px;
+    padding: 4px;
+  }
+
+  input {
+    margin: 1.6px;
+    height: 50px;
+    border-radius: 5px;
+    border: solid 3px black;
+    width: 15%;
+  }
+}
+
+/* Desktop e Notebooks */
+@media (min-width: 1025px) {
+  body {
+    background-image: url(images/gatos.avif);
+    background-size: auto;
+  }
+
+  table,
+  th,
+  td {
+    border: solid 2px black;
+    width: 100%;
+    padding: 7px;
+    border-radius: 10px;
+  }
+
+  h1 {
+    text-align: center;
+    background-color: #f4acb7;
+    border: solid 4px black;
+    margin: 0px 200px 30px 200px;
+    padding-bottom: 5px;
+    border-radius: 10px;
+  }
+
+  th {
+    background-color: #f4acb7;
+    border: black solid 3px;
+    width: auto;
+  }
+
+  td {
+    border: solid black 2.5px;
+    background-color: ;
+    width: auto;
+  }
+
+  tr {
+    text-align: center;
+  }
+
+  .corpo {
+    margin: auto;
+    width: 85%;
+    background-color: #ffe5d9;
+    border: 3px solid black;
+    border-radius: 10px;
+  }
+
+  .insercoes {
+    margin: auto;
+    width: 85%;
+    flex-wrap: wrap;
+    background-color: #d8e2dc;
+    border: 3px solid black;
+    margin-bottom: 10px;
+    border-radius: 10px;
+    padding: 4px;
+  }
+
+  input {
+    margin: 1.6px;
+    height: 50px;
+    border-radius: 5px;
+    border: solid 3px black;
+    width: 15%;
+  }
+}
